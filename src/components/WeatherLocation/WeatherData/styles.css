@@ -1,0 +1,73 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.clase1{
+
+    background-color:  rgba(46, 41, 41, 0.05);
+    width: 100%;
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 5px;
+}
+
+.clase2{
+
+    font-size: 18px;
+    width: 60%;
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+
+}
+
+.clase2 .humedad{
+
+    display: block;
+    color: #b31c29;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.clase2 .viento{
+
+    display: block;
+    color: #b31c29;
+    font-weight: bold;
+    font-size: 1em;
+
+
+}
+.clase3{
+
+    width: 40%;
+    display: inline-block;
+    height: 100%;
+
+}
+
+.clase3 .temperatura{
+
+    color: #b31c29;
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 20px;
+
+}
+
+.clase3 .centigrados{
+
+    padding: 0px;
+    color:#b31c29;
+    font-weight: bold;
+
+}
+
+.clase3 .icon{
+
+    color:rgba(77, 36, 172, 0.932);
+}

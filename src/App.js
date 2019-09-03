@@ -6,6 +6,8 @@ import Paper from 'material-ui/Paper'
 import AppBar from 'material-ui/AppBar'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import ForecastExtended from './components/ForecastExtended'
+import {setCity} from './actions'
+import {store} from './store'
 
 //let --> scope: global, local bloque
 //var --> scope: global, local para funcion
@@ -28,6 +30,7 @@ class App extends Component {
 
     this.setState({city});
     console.log(`handleSelectLocation ${city}`);
+    store.dispatch(setCity(city))
   }
 
   render = () => {
